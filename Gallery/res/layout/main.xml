@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="160px"
+ 	android:layout_height="160px"
+ 	android:background="#000000" >
+
+	<com.wimm.framework.view.AdapterViewTray
+	    android:id="@+id/tray"
+	   	android:layout_width="160px"
+        android:layout_height="160px">
+
+	</com.wimm.framework.view.AdapterViewTray>
+	
+	<RelativeLayout
+		android:id="@+id/instructions"
+	    android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		android:visibility="gone">
+		<TextView 
+	    	android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentTop="true"
+	       	android:text="@string/no_images"
+	        android:gravity="center"/>
+		<TextView 
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentBottom="true"
+		    android:text="@string/instructions"
+			android:gravity="center"/>
+	</RelativeLayout>	    
+</LinearLayout>

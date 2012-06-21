@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="no_images">I am afraid you don\'t have any images to display.</string>
+    <string name="instructions">Connect your WiMM to you computer to drag images onto the Images folder on your internal storage.</string>
+    <string name="app_name">Gallery</string>
+
+</resources>
